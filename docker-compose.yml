@@ -1,0 +1,6 @@
+services:
+  web:
+    image: ${DOCKER_USER}/2048-arelatrio
+    ports:
+      - "9999:80"
+
