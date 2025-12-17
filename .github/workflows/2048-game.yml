@@ -6,7 +6,7 @@ on:
       - main
 
 env:
-  IMAGE_NAME: "${{ secrets.DOCKER_USER }}"/2024-arelatrio
+  IMAGE_NAME: "${{ secrets.DOCKER_USER }}/2024-arelatrio"
   DOCKER_USER: "${{ secrets.DOCKER_USER}}"
 jobs:
   build-push-image:
